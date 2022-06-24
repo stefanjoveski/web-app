@@ -2,7 +2,7 @@
 
 $dsn='mysql:host=localhost;dbname=webapp';
 $username='root';
-$password='Stefanj1002';
+$password='********';
 
 try{
     $db= new PDO($dsn,$username,$password);
