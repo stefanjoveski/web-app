@@ -33,7 +33,7 @@ function send_email($to_address, $to_name, $from_address, $from_name,
     $mail->Port = 587;                           // Set TCP port
     $mail->SMTPAuth = true;                      // Enable SMTP authentication
     $mail->Username = 'stefan.joveski@gmail.com'; // Set SMTP username
-    $mail->Password = 'ywukunzxidkrvusr';           // Set SMTP password
+    $mail->Password = '*************';           // Set SMTP password
     
     // Set From address, To address, subject, and body
     //$mail->setFrom($from_address, $from_name);
