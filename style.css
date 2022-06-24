@@ -1,0 +1,428 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #fdb200;
+  
+}
+.logo {
+    background-color: #f32500;
+    height: 15%;
+    
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: auto;
+    position: relative;
+    margin: auto;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+ 
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+ 
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+ 
+}
+.container{
+  background-color: black;
+  overflow: hidden;
+  color:white;
+
+}
+.container a{
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    float: right;
+}
+
+.fa-facebook {
+  background: grey;
+  color: white;
+  float: right;
+}
+
+.fa-twitter {
+  background: rgb(177, 175, 175);
+  color: white;
+  float: right;
+}
+
+.fa-google {
+  background: rgb(197, 197, 197);
+  color: white;
+  float: right;
+}
+
+.fa-linkedin {
+  background: rgb(161, 157, 157);
+  color: white;
+  float: right;
+}
+
+
+
+.vertical-menu {
+
+  background-color: #fdb200; /* Set a width if you like */
+  display: block;
+  
+}
+
+
+.vertical-menu li a {
+  background-color: #fdb200; /* Grey background color */
+  color: rgb(255, 255, 255); /* Black text color */
+  display:block; /* Make the links appear below each other */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu li a:hover {
+  background-color: #f8e074; /* Dark grey background on mouse-over */
+}
+
+.head{
+
+  color: rgb(0, 0, 0);
+  font-weight:lighter;
+}
+/*
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f8e074;
+  color: white;}*/
+.categ{
+  background-color: black;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  margin: 0%;
+  text-align: center;
+  font-size: 230%;
+  font-weight: bold;
+  
+}
+
+.red {
+  
+  height:3cm;
+  margin: 0%;
+  
+}
+.name{
+  padding-left: 10%;
+  font-size: 200%;
+  font-weight: bolder;
+  color:#f8e074;
+  
+}
+#originalna{
+  color:red;
+  font-size: 110%;
+  text-decoration: line-through;
+}
+#namalena{
+  color:rgb(23, 187, 23);
+  text-align: center;
+  padding:0%;
+  margin:0%;
+}
+#datum{
+  font-size: 65%;
+}
+.button {
+  background-color: #fdb200;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 40%;
+  margin-right: 50%;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: rgb(124, 119, 119); 
+  border: 2px solid #e9624b;
+}
+
+.button1:hover {
+  background-color: #ff9a88;
+  color: white;
+}
+#text{
+
+  height: 25px;
+  border-radius: 5px;
+  padding: 4px;
+  border: solid thin #aaa;
+  width: 400px;
+}
+
+
+  #box {
+  background-color: white;
+  width: 450px;
+  max-height: 90%;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, .15);
+  margin-left:35%;
+  margin-top:5%;
+  }
+  #cart {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #cart td, #cart th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #cart tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #cart tr:hover {background-color: #f8e074;}
+  
+  #cart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fdb200;
+    color: white;
+    
+  }
+  
+.n{
+color:#000000
+}
+.button2 {
+  background-color: #e9624b; 
+  color: white; 
+  font-weight: bolder;
+  font-size: large;
+  text-decoration: none;
+  padding: 4px;
+  border: none;
+  
+ 
+}
+
+.button2:hover {
+  background-color: #ff9a88;
+  color: white;
+}
+.but{
+  background-color: #fdb200;
+  color:white;
+  padding:4px;
+  border: none;
+}
+.but:hover{
+  background-color: #f8e074;
+  color: white;
+}
+.shopping-cart-button {
+  padding: 1rem;
+  background-color: #f8e074;
+}
+  shopping-cart-button:hover {
+    background-color: darken(#f8e074, 10%);
+  }
+  .blog{
+    
+      width: 90%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+      margin-bottom: 2%;
+    
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float:left;
+    margin-left:5%;
+    padding:5%;
+  }
+  .date1{
+  float:left;
+  padding:1%;
+  font-size: 13px;
+  }
+  .date2{
+  float:right;
+  padding:1%;
+  font-size: 13px;
+  }
+  
+  .price {
+    color: red;
+    font-size: 18px;
+    
+  }
+  .price2 {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
